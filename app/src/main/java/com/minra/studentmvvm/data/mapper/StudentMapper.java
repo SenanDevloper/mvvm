@@ -5,6 +5,7 @@ import com.minra.studentmvvm.data.model.Student;
 
 public class StudentMapper
 {
+    //mapper
     public static Student toDomain(StudenRemot studentRemote) {
         return new Student(studentRemote.getId(), studentRemote.getSname(),
                 studentRemote.getAge());

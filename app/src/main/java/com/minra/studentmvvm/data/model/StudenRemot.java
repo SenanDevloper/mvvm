@@ -4,6 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
+//students
 public class StudenRemot
 {
     private int id;

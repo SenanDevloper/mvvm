@@ -8,7 +8,7 @@ import java.util.List;
  * Created by Mohammed Senan on 05/04/2021
  */
 public interface studentRepository {
-
+//repositry
     interface LoadStudentsCallback {
         void onStudentsLoaded(List<Student> movies);
         void onDataNotAvailable();

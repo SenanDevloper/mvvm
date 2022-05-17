@@ -20,6 +20,7 @@ import com.minra.studentmvvm.data.model.Student;
 import java.util.ArrayList;
 import java.util.List;
 
+//this adapter
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private List<Student> mNicePlaces = new ArrayList<>();

@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                     hideProgressBar();
             }
         });
+        //this main activity
         initRecyclerView();
 
         mFab.setOnClickListener(new View.OnClickListener() {

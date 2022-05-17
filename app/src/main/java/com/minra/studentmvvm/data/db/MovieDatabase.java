@@ -11,6 +11,7 @@ import com.minra.studentmvvm.data.model.Student;
 /**
  * Created by Mohammed Senan on 30/03/2022.
  */
+//room database
 @Database(entities = {Student.class}, version = 1, exportSchema = false)
 public abstract class MovieDatabase extends RoomDatabase {
 
